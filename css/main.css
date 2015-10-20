@@ -71,6 +71,7 @@ body {
 
 .header-container {
     border-bottom: 20px solid #e44d26;
+    color: rgba(241, 101, 41, 0.82);;
 }
 
 .footer-container,
@@ -81,7 +82,7 @@ body {
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #F37D4A;
 }
 
 .title {
@@ -370,4 +371,74 @@ nav a:hover {
     h3 {
         page-break-after: avoid;
     }
+}
+
+
+
+
+h1{
+    color: #ffffff;
+    font: bold 35px CAPTION;
+    text-align: left;
+    float: left;
+}
+
+.phones{
+    float: right;
+    margin-top: 15px;
+    font: 22px CAPTION;
+    color: white;
+    line-height: 30px;
+}
+
+h2{
+    text-align: center;
+    font: bold 30px CAPTION;
+    color: #635849;
+    margin: 15px auto;
+}
+
+h3{
+    text-align: center;
+    font: bold 28px CAPTION;
+    color: #635849;
+    margin: 5px auto;
+}
+
+.description p{
+    text-align: justify;
+    font: 19px CAPTION;
+    color: #635849;
+    margin-top: 30px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.description img{
+    float: left;
+    margin: 0 40px 0 0;
+    width: 266px;
+    height: 275px;
+}
+
+.contacts{
+    float:left;
+}
+
+.contacts h3{
+    text-align: left;
+}
+
+.contacts div{
+    text-align: justify;
+    font: 19px CAPTION;
+    color: #635849;
+}
+
+.map{
+    float:right;
+}
+
+.map h3{
+    text-align: left;
 }
